@@ -1,0 +1,201 @@
+{
+  "object": "database",
+  "id": "c6431957-f20d-4b39-b806-a39f7b24aa81",
+  "cover": null,
+  "icon": {
+      "type": "emoji",
+      "emoji": "👨🏻‍💻"
+  },
+  "created_time": "2022-04-29T09:47:00.000Z",
+  "created_by": {
+      "object": "user",
+      "id": "f4137a74-5733-4f59-8ff1-3abcdc62fc38"
+  },
+  "last_edited_by": {
+      "object": "user",
+      "id": "f4137a74-5733-4f59-8ff1-3abcdc62fc38"
+  },
+  "last_edited_time": "2022-09-11T23:07:00.000Z",
+  "title": [
+      {
+          "type": "text",
+          "text": {
+              "content": "GitHub Project to Focus on",
+              "link": null
+          },
+          "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+          },
+          "plain_text": "GitHub Project to Focus on",
+          "href": null
+      }
+  ],
+  "description": [],
+  "is_inline": false,
+  "properties": {
+      "Belongings": {
+          "id": "HSh%3C",
+          "name": "Belongings",
+          "type": "select",
+          "select": {
+              "options": [
+                  {
+                      "id": "TXDT",
+                      "name": "self",
+                      "color": "brown"
+                  },
+                  {
+                      "id": "a6192185-8f74-4f22-9702-fa95e793fde6",
+                      "name": "MLJ",
+                      "color": "pink"
+                  },
+                  {
+                      "id": "96bc065c-015e-4feb-a2fe-ef19d90a3df2",
+                      "name": "Flux",
+                      "color": "red"
+                  },
+                  {
+                      "id": "176210e3-400e-4c51-879b-bc429d143172",
+                      "name": "me",
+                      "color": "purple"
+                  }
+              ]
+          }
+      },
+      "Field": {
+          "id": "VEYD",
+          "name": "Field",
+          "type": "multi_select",
+          "multi_select": {
+              "options": [
+                  {
+                      "id": "c2145e11-072a-4dfe-aef8-3798fa92a2f7",
+                      "name": "ML",
+                      "color": "gray"
+                  },
+                  {
+                      "id": "6f253de6-dab0-4237-9c73-38854d997ca7",
+                      "name": "DL",
+                      "color": "brown"
+                  },
+                  {
+                      "id": "646e266c-0f73-4b17-bf10-9df61bd76be8",
+                      "name": "DL-tutorial",
+                      "color": "blue"
+                  },
+                  {
+                      "id": "357459ea-3a5f-4104-8202-293a0c1ffccf",
+                      "name": "TimeSeries",
+                      "color": "red"
+                  },
+                  {
+                      "id": "6f9e84cb-5098-4905-907c-f537f572efdb",
+                      "name": "OnlineStats",
+                      "color": "purple"
+                  },
+                  {
+                      "id": "e1f1069a-ae18-4fc0-8f33-9224eb922286",
+                      "name": "TableOperation",
+                      "color": "green"
+                  },
+                  {
+                      "id": "271a46fd-457b-43fd-8658-301b8065f26d",
+                      "name": "None",
+                      "color": "pink"
+                  },
+                  {
+                      "id": "77082552-202b-4b23-a50c-a01ef4953561",
+                      "name": "Aurograd",
+                      "color": "default"
+                  }
+              ]
+          }
+      },
+      "Size": {
+          "id": "XCeC",
+          "name": "Size",
+          "type": "select",
+          "select": {
+              "options": [
+                  {
+                      "id": "OfTm",
+                      "name": "Medium",
+                      "color": "default"
+                  },
+                  {
+                      "id": "a3247cb2-d4b8-4f04-9546-d72a06dc0e41",
+                      "name": "Small",
+                      "color": "brown"
+                  },
+                  {
+                      "id": "acbd5500-0f33-4985-8392-82826f6d57a6",
+                      "name": "Tiny",
+                      "color": "green"
+                  }
+              ]
+          }
+      },
+      "Website": {
+          "id": "f%5Dtl",
+          "name": "Website",
+          "type": "rich_text",
+          "rich_text": {}
+      },
+      "focused(currently)": {
+          "id": "w%7B%3EM",
+          "name": "focused(currently)",
+          "type": "multi_select",
+          "multi_select": {
+              "options": [
+                  {
+                      "id": "5f179373-3063-453b-acc6-8144e725e7a5",
+                      "name": "DataSlicing",
+                      "color": "brown"
+                  },
+                  {
+                      "id": "0b4f5c55-85b9-4bd1-a7f3-4bbca9ed74ca",
+                      "name": "HandleMissing",
+                      "color": "red"
+                  },
+                  {
+                      "id": "74f03e1e-a07b-43ae-b97c-37444c6636f4",
+                      "name": "sample",
+                      "color": "default"
+                  },
+                  {
+                      "id": "a1e5c1f0-b6fb-4095-8bc3-1f1fbcf18745",
+                      "name": "levels",
+                      "color": "gray"
+                  },
+                  {
+                      "id": "7e930eb6-6f1c-48ac-b654-8406e3eaf2d3",
+                      "name": "onehot",
+                      "color": "gray"
+                  },
+                  {
+                      "id": "ff435790-da3a-4c35-b5f8-d11943b5130b",
+                      "name": "sort",
+                      "color": "blue"
+                  }
+              ]
+          }
+      },
+      "Name": {
+          "id": "title",
+          "name": "Name",
+          "type": "title",
+          "title": {}
+      }
+  },
+  "parent": {
+      "type": "workspace",
+      "workspace": true
+  },
+  "url": "https://www.notion.so/c6431957f20d4b39b806a39f7b24aa81",
+  "archived": false
+}
