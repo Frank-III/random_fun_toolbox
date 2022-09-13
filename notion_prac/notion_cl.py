@@ -1,7 +1,9 @@
+from ast import Str
 import os
 import sys
 from pprint import pprint
 import json
+from typing import Dict
 from notion_client import Client
 from dotenv import load_dotenv
 
@@ -35,3 +37,30 @@ when try to determine which page to append blocks:
 
 5. add new focus problem using template 
 """
+
+class MyGitNotion:
+    def __init__(self, page_id:Str=None, ) -> None:
+        self.database_id = os.getenv("database_id","")
+        self.page_id = page_id
+        self.database = None
+        self.blocks = None
+
+    def get_page(self, name:Str) -> Dict:
+        self.database = notion.databases.query(
+        **{
+            "database_id": os.getenv("database_id",""),
+            "filter": {
+                "property": "Name",
+                "title":{
+                    "equals": name,
+                    },
+            },
+        }) 
+        return self.database
+
+    def get_page_id(self, retrieved_page:Dict) -> Str:
+        self.page_id =  (retrieved_page['results'][0]['url']).split("-")[-1]
+        return self.page_id
+    
+
+
